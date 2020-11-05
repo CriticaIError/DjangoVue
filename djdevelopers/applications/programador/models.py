@@ -1,8 +1,5 @@
 from django.db import models
 
-from django.db import models
-
-
 class Lenguaje(models.Model):
     
     languages = models.CharField(max_length=50)
